@@ -1,0 +1,238 @@
+/* Contactos Container  */
+#contactoscont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+/* Logo contactos */
+#logomiscontactos {
+  width: 70%;
+  align-self: center;
+}
+/* Contactos Container 2  */
+#contactoscont2 {
+  width: 70%;
+  align-self: center;
+}
+
+.table {
+  table-layout: auto;
+}
+
+.table td,
+.table th {
+  border: 1px transparent;
+  text-align: center;
+}
+.btns {
+  align-self: center;
+  display: flex;
+}
+#buttonscont {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+/* Boton agregar */
+#addbtn {
+  color: black;
+  font-size: 90%;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgb(73, 70, 70) !important;
+  background-color: yellow !important;
+  border-color: transparent !important;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+#addbtn:hover {
+  color: #fff;
+  box-shadow: none !important;
+  background-color: rgb(128, 128, 128) !important;
+}
+/* Boton eliminar */
+#elimbtn {
+  color: rgb(0, 0, 0);
+  font-size: 90%;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgb(73, 70, 70) !important;
+  background-color: rgb(255, 255, 255) !important;
+  border-color: transparent !important;
+}
+#elimbtn:hover {
+  color: #fff;
+  box-shadow: none !important;
+  background-color: rgb(128, 128, 128) !important;
+}
+
+.volvercont {
+  display: flex;
+  justify-content: center;
+}
+/* Boton Volver  */
+#volverbutton {
+  color: rgb(255, 249, 249);
+  font-size: 90%;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgb(73, 70, 70) !important;
+  background-color: rgb(17, 17, 17) !important;
+  border-color: transparent !important;
+  margin-top: 5%;
+}
+#volverbutton:hover {
+  color: #fff;
+  box-shadow: none !important;
+  background-color: rgb(128, 128, 128) !important;
+}
+/* Footer */
+#footercontactos {
+  width: 70%;
+  align-self: center;
+}
+
+.table td,
+.table th {
+  border: 1px black;
+  text-align: center;
+}
+
+#inputContacts {
+  border-color: black;
+  border-radius: 5px;
+  width: 70%;
+  align-self: center;
+  margin-bottom: 5%;
+}
+
+#tableCont {
+  display: inline;
+  background-color: transparent;
+  border: transparent;
+}
+
+.btns {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#rowTable{
+  cursor: pointer;
+}
+
+#rowData{
+  background-color: lightgrey;
+}
+
+/*table responsive*/
+
+@media only screen and (max-width: 600px) {
+  /* Contactos Container  */
+  #contactoscont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  /* Logo contactos */
+  #logomiscontactos {
+    width: 100%;
+    align-self: center;
+  }
+  /* Contactos Container 2  */
+  #contactoscont2 {
+    width: 100%;
+    align-self: center;
+  }
+
+  .table {
+    table-layout: auto;
+  }
+
+  .table td,
+  .table th {
+    border: 1px transparent;
+    text-align: center;
+  }
+  #inputContacts {
+    border-color: black;
+    border-radius: 5px;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 5%;
+  }
+  .btns {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  #buttonscont {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+  }
+
+  /* Boton agregar */
+  #addbtn {
+    color: black;
+    font-size: 90%;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px rgb(73, 70, 70) !important;
+    background-color: yellow !important;
+    border-color: transparent !important;
+  }
+  #addbtn:hover {
+    color: #fff;
+    box-shadow: none !important;
+    background-color: rgb(128, 128, 128) !important;
+  }
+  /* Boton eliminar */
+  #elimbtn {
+    color: rgb(0, 0, 0);
+    font-size: 90%;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px rgb(73, 70, 70) !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-color: transparent !important;
+    margin-top: 5%;
+  }
+  #elimbtn:hover {
+    color: #fff;
+    box-shadow: none !important;
+    background-color: rgb(128, 128, 128) !important;
+  }
+
+  .volvercont {
+    display: flex;
+    justify-content: center;
+  }
+  #buttonscont {
+    align-self: center!important;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Boton Volver  */
+  #volverbutton {
+    color: rgb(255, 249, 249);
+    font-size: 90%;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px rgb(73, 70, 70) !important;
+    background-color: rgb(17, 17, 17) !important;
+    border-color: transparent !important;
+  }
+  #volverbutton:hover {
+    color: #fff;
+    box-shadow: none !important;
+    background-color: rgb(128, 128, 128) !important;
+  }
+  /* Footer */
+  #footercontactos {
+    width: 100%;
+    align-self: center;
+    margin-top: 18%;
+  }
+}

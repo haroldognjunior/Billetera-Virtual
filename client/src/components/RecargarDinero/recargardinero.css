@@ -1,0 +1,190 @@
+/* Container Recargar Dinero */
+#recargardinerocont{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgb(53, 53, 53), rgb(255, 255, 255));
+  box-shadow: none !important;
+  border-color: transparent !important;
+  margin-top: 0px!important;
+}
+/* Imagen Header */
+#headerrecargar {
+  width: 70%;
+  height: 100%;
+  align-self: center;
+}
+/* Form Container */
+.form-group {
+  width: 70%!important;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+  background-color: transparent;
+}
+/* P Container */
+#pcont {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  background-color: white;
+}
+#pcont p {
+  font-weight: 700;
+  text-align: center;
+  margin-top:5%;
+}
+
+#recargardinerocont .codigo{
+  display: flex;
+  width: 70%;
+  margin-bottom: 20px;
+  background-color: black;
+  padding: 10px;
+}
+#recargardinerocont .codigo span{
+  width: 100%;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+
+}
+/* Container Medio */
+#recargardinerocont .confirmar{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 5%;
+ 
+}
+/* Boton Recargar */
+#buttonrecargar {
+  width: 60%;
+  align-self: center;
+  color: black;
+  font-size: 120%;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgb(73, 70, 70)!important;
+  background-color: yellow!important;
+  border-color: transparent !important;
+}
+#recargardinerocont #buttonrecargar:hover {
+  color: #fff;
+  box-shadow: none!important;
+  background-color: rgb(128, 128, 128)!important;
+}
+/* Footer Image */
+#footerrecargar {
+  width:70%;
+  align-self: center;
+  margin-top:2%;
+  margin-bottom: -25%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+/* Container Recargar Dinero */
+#recargardinerocont{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgb(53, 53, 53), rgb(255, 255, 255));
+  box-shadow: none !important;
+  border-color: transparent !important;
+  margin-top: 0px!important;
+}
+/* Imagen Header */
+#headerrecargar {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+/* Form Container */
+.form-group {
+  width: 100%!important;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+  background-color: transparent;
+}
+/* P Container */
+#pcont {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  background-color: white;
+}
+#pcont p {
+  font-weight: 700;
+  text-align: center;
+  margin-top:5%;
+  font-size: 15px;
+}
+
+#recargardinerocont .codigo{
+  display: flex;
+  width: 70%;
+  margin-bottom: 20px;
+  background-color: black;
+  padding: 10px;
+}
+#recargardinerocont .codigo span{
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+
+}
+/* Container Medio */
+#recargardinerocont .confirmar{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 5%;
+ 
+}
+/* Boton Recargar */
+#buttonrecargar {
+  width: 60%;
+  align-self: center;
+  color: black;
+  font-size: 120%;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgb(73, 70, 70)!important;
+  background-color: yellow!important;
+  border-color: transparent !important;
+  margin-bottom: 10%;
+}
+#recargardinerocont #buttonrecargar:hover {
+  color: #fff;
+  box-shadow: none!important;
+  background-color: rgb(128, 128, 128)!important;
+}
+/* Footer Image */
+#footerrecargar {
+  width:100%;
+  align-self: center;
+  margin-top:0%!important;
+  margin-bottom: -25%;
+}
+}

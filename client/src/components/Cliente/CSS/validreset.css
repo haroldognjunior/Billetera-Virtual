@@ -1,0 +1,29 @@
+#containervalid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(255, 255, 255));
+    box-shadow: none !important;
+    border-color: transparent !important;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#headervalid {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 415px) {
+#containervalid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(255, 255, 255));
+    box-shadow: none !important;
+    border-color: transparent !important;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+}

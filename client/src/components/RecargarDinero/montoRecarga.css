@@ -1,0 +1,180 @@
+#recargardinerocont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#recargardinerocont #headerrecagar {
+  width: 70% !important;
+}
+.envia {
+  background-color: #fffdfdef;
+  border: solid 1px #6b6b6b3f;
+  text-align: center;
+  width: 70%;
+}
+.envia .destino {
+  margin-bottom: 0px !important;
+}
+.envia .destino input {
+  height: 42px;
+  margin: 0px;
+}
+.envia .total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.envia .total h1 {
+  font-size: 75px;
+}
+.envia .mensaje {
+  margin: 0px;
+}
+.envia .confirmar input {
+  width: 17px;
+  height: 17px;
+}
+.envia .confirmar label {
+  text-align: justify;
+  margin-left: 5px;
+  color: #3b3b3b;
+}
+/* Login Button  */
+.buttonrecargar {
+  width: 80%;
+  align-self: center;
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 100%;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgb(73, 70, 70) !important;
+  background-color: yellow !important;
+  border-color: transparent !important;
+}
+.buttonrecargar:hover {
+  color: #fff;
+  box-shadow: none !important;
+  background-color: rgb(128, 128, 128) !important;
+}
+.buttongoback {
+  width: 50%;
+  align-self: center;
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 90%;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgb(73, 70, 70) !important;
+  background-color: yellow !important;
+  border-color: transparent !important;
+}
+.buttongoback:hover {
+  color: #fff;
+  box-shadow: none !important;
+  background-color: rgb(128, 128, 128) !important;
+}
+.col-md-5 {
+  max-width: none;
+}
+.form-group {
+  width: 70% !important;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+#footermontorecarga {
+  margin-top: -5% !important;
+  width: 70%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #recargardinerocont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #recargardinerocont #headerrecagar {
+    width: 100% !important;
+  }
+  .envia {
+    background-color: #fffdfdef;
+    border: solid 1px #6b6b6b3f;
+    text-align: center;
+    width: 100% !important;
+  }
+  .envia .destino {
+    margin-bottom: 0px !important;
+  }
+  .envia .destino input {
+    height: 42px;
+    margin: 0px;
+  }
+  .envia .total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .envia .total h1 {
+    font-size: 75px;
+  }
+  .envia .mensaje {
+    margin: 0px;
+  }
+  .envia .confirmar input {
+    width: 17px;
+    height: 17px;
+  }
+  .envia .confirmar label {
+    text-align: justify;
+    margin-left: 5px;
+    color: #3b3b3b;
+  }
+  /* Login Button  */
+  .buttonrecargar {
+    width: 80%;
+    align-self: center;
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 100%;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px rgb(73, 70, 70) !important;
+    background-color: yellow !important;
+    border-color: transparent !important;
+  }
+  .buttonrecargar:hover {
+    color: #fff;
+    box-shadow: none !important;
+    background-color: rgb(128, 128, 128) !important;
+  }
+  .buttongoback {
+    width: 50%;
+    align-self: center;
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 90%;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px rgb(73, 70, 70) !important;
+    background-color: yellow !important;
+    border-color: transparent !important;
+  }
+  .buttongoback:hover {
+    color: #fff;
+    box-shadow: none !important;
+    background-color: rgb(128, 128, 128) !important;
+  }
+  .col-md-5 {
+    max-width: none;
+  }
+  .form-group {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  #footermontorecarga {
+    margin-top: -12% !important;
+    width: 100%;
+  }
+}

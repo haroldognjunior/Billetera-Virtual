@@ -1,0 +1,260 @@
+/* Container Cliente */
+#contecliente1 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  background-color: transparent;
+  box-shadow: none !important;
+  background-image: linear-gradient(rgb(228, 228, 228), rgb(255, 255, 255));
+}
+/* header cliente */
+#headercliente {
+  width: 70%;
+}
+/* Subcontainer Cliente */
+.contecliente2 {
+  align-self: center;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+/* Header Container */
+.contecliente2 .header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: transparent;
+}
+/* div Perfil  */
+.perfil {
+  width: 30%;
+  height: 100%;
+  margin-top: -5%;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+/* Nombre  y botones h2 de perfil */
+.perfil h2 {
+  margin-top: 20%;
+}
+
+.contecliente2 .header .perfil h2 {
+  font-weight: 500;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+/* Container Div perfil */
+.divperfil {
+  width: 100%;
+}
+
+.header span {
+  width: 50%;
+  height: 100%;
+  font-weight: 500;
+  font-size: 100%;
+  color: rgb(0, 0, 0);
+  align-self: center;
+}
+/* Container Balance */
+.contecliente2 .header .saldo {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border-style: solid;
+  border-color: rgb(179, 179, 179) tant;
+  border: solid;
+  margin-left: 15%;
+  margin-top: -5%;
+}
+
+.contecliente2 .header .saldo h3 {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  align-self: center;
+  justify-content: center;
+}
+/*  TITULO BALANCE DE MI CUENTA */
+.balance h2 {
+  font-size: 20px;
+  color: gray;
+}
+#ondasclient {
+  width: 100%;
+  align-self: center;
+}
+
+.contecliente2 .clientegeneral {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+#navbarcont {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+}
+
+#footerclient {
+  width: 100%;
+  align-self: center;
+  margin-top: 0%;
+}
+#formvalidation {
+  width: 100%;
+  background-color: rgb(248, 248, 248) !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Container Cliente */
+  #contecliente1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+    margin-top: 0px !important;
+    margin-left: 0 !important;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  /* Subcontainer Cliente */
+  .contecliente2 {
+    width: 100%;
+    margin-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+  }
+  /* Header Container */
+  .contecliente2 .header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    margin-bottom: -2%;
+    background-color: transparent;
+  }
+  /* div Perfil  */
+  .perfil {
+    margin-top: 0%;
+    width: 30%;
+    height: 100%;
+    margin-left: -15% !important;
+
+    background-color: transparent;
+  }
+  /* Nombre  y botones h2 de perfil */
+  .perfil h2 {
+    margin-top: 20%;
+  }
+
+  .contecliente2 .header .perfil h2 {
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+  }
+
+  /* Container Div perfil */
+  .divperfil {
+    width: 50%;
+  }
+
+  .header span {
+    width: 50%;
+    height: 100%;
+    font-weight: 500;
+    font-size: 80%;
+    color: rgb(10, 10, 10);
+  }
+  /* Container Balance */
+  .contecliente2 .header .saldo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    border-style: solid;
+    border-color: gray;
+    margin-left: 15%;
+  }
+
+  .contecliente2 .header .saldo h3 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    align-self: center;
+    justify-content: center;
+  }
+  /*  TITULO BALANCE DE MI CUENTA */
+  .balance h2 {
+    font-size: 20px;
+    color: gray;
+  }
+  #ondasclient {
+    width: 100%;
+    align-self: center;
+    margin-top: -1%;
+    margin-bottom: -5%;
+  }
+  #headercliente {
+    width: 100%;
+  }
+
+  .contecliente2 .clientegeneral {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+
+  #navbarcont {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+  }
+
+  #footerclient {
+    width: 100%;
+    align-self: center;
+  }
+  #formvalidation {
+    width: 100%;
+    display: flex;
+    background-color: transparent !important;
+    margin-bottom: 37%;
+  }
+  #formvalidation h1 {
+    text-align: center;
+    margin-top: 20%;
+    margin-right: 7%;
+  }
+}

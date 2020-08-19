@@ -1,0 +1,326 @@
+/* Container Login */
+#login {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgb(99, 99, 99), rgb(255, 255, 255));
+  box-shadow: none !important;
+  border-color: transparent !important;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+/* Imagen Login */
+#login #henrybanklogin {
+  width: 70%;
+  height: 100%;
+  align-self: center;
+  margin-top: 0% !important;
+}
+/* Form Container  */
+#login #formlogin {
+  width: 100%;
+  background-color: linear-gradient(rgb(112, 112, 112), rgb(61, 61, 61));
+  border-radius: 15px;
+  align-self: center;
+  background-color: transparent;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100% !important;
+  height: 100%;
+  background: transparent;
+}
+/* Container 2 Login */
+#login #contelogin2 {
+  width: 70% !important;
+  padding-bottom: 4px;
+  padding-top: 4px !important;
+  background-color: black;
+  margin: 0 !important;
+}
+/* Container 3 Login */
+#contelogin3 {
+  width: 100%;
+  background-color: black;
+  align-self: center !important;
+  padding-bottom: 4px;
+}
+/* Inputs  */
+.form-control {
+  width: 80%;
+  align-self: center;
+  margin-left: 5% !important;
+  margin-bottom: 2% !important;
+  margin-top: 5%;
+}
+/* Container 4  */
+#login #contelogin4 {
+  background-color: black;
+  align-items: center;
+  margin-bottom: 0%;
+}
+/* Olvidaste contraseña Button */
+.forgotpass {
+  color: white;
+  font-weight: 500;
+  background-color: black;
+  border: none;
+  margin-left: 0 !important;
+  width: 80%;
+}
+
+.forgotpass:hover {
+  background-color: rgb(122, 122, 122);
+  width: 80%;
+}
+/* Imagen de Ondas  */
+#login #formlogin #ondas {
+  width: 70%;
+  height: 100%;
+  align-self: center;
+  margin-left: 0% !important;
+}
+/* Container Buttons  */
+#login .inicio {
+  width: 70% !important;
+  height: 50%;
+  margin-top: 0% !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  flex-direction: column !important;
+  max-width: none !important;
+  background-color: transparent;
+}
+/* Iniciar Sesion Button */
+#login .inicio input {
+  width: 100%;
+  align-self: center;
+  background-color: yellow;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  font-size: 100%;
+  box-shadow: 5px 5px 5px rgb(167, 167, 167);
+  margin-top: 10% !important;
+}
+
+#login .inicio .btn:hover {
+  color: rgb(0, 0, 0);
+  box-shadow: none;
+  background-color: gray;
+}
+/* Cancelar Button */
+.inicio .buttonback {
+  width: 60%;
+  height: 80%;
+  margin-bottom: 10%;
+  align-self: center;
+  text-align: center;
+  color: black;
+  font-size: 80%;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgb(73, 70, 70);
+  background-color: white;
+  border-color: transparent !important;
+}
+
+#login .inicio button:hover {
+  color: rgb(0, 0, 0);
+  box-shadow: none;
+  background-color: rgb(179, 179, 179) 8, 168, 168;
+}
+
+.help {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  width: 100%;
+  flex-direction: column;
+  background-color: transparent;
+  width: 100% !important;
+  align-self: center;
+}
+
+#login .link #ayudaa {
+  color: #5c5c5c;
+  font-size: 80%;
+  align-self: center;
+  background-color: transparent;
+}
+
+#footerlogin {
+  width: 70%;
+  height: 70%;
+  align-self: center;
+  margin-top: -5%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Container Login */
+  #login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(255, 255, 255));
+    box-shadow: none !important;
+    border-color: transparent !important;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  /* Imagen Login */
+  #login #henrybanklogin {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    margin-top: 0% !important;
+  }
+  /* Form Container  */
+  #login #formlogin {
+    width: 100%;
+    border-radius: 15px;
+    align-self: center;
+    background-color: transparent;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100% !important;
+    height: 100%;
+    background: transparent;
+  }
+  /* Container 2 Login */
+  #login #contelogin2 {
+    width: 100% !important;
+    padding-bottom: 4px;
+    padding-top: 4px !important;
+    margin: 0 !important;
+  }
+  /* Container 3 Login */
+  #contelogin3 {
+    width: 100%;
+    align-self: center !important;
+    padding-bottom: 4px;
+  }
+  /* Inputs  */
+  .form-control {
+    width: 100%;
+    align-self: center;
+    margin-left: 5% !important;
+    margin-bottom: 2% !important;
+    margin-top: 5%;
+  }
+  /* Container 4  */
+  #login #contelogin4 {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0%;
+  }
+  /* Olvidaste contraseña Button */
+  .forgotpass {
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    width: 80%;
+    margin-left: 0 !important;
+  }
+
+  .forgotpass:hover {
+    background-color: rgb(122, 122, 122);
+    width: 80%;
+  }
+  /* Imagen de Ondas  */
+  #login #formlogin #ondas {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    margin-left: 0% !important;
+  }
+  /* Container Buttons  */
+  #login .inicio {
+    width: 100% !important;
+    height: 50%;
+    margin-top: 0% !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    flex-direction: column !important;
+    max-width: none !important;
+    background-color: transparent;
+  }
+  /* Iniciar Sesion Button */
+  #login .inicio input {
+    width: 100%;
+    align-self: center;
+    background-color: yellow;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    font-size: 100%;
+    box-shadow: 5px 5px 5px rgb(167, 167, 167);
+    margin-top: 10% !important;
+  }
+
+  #login .inicio input:hoverclick {
+    color: rgb(0, 0, 0);
+    box-shadow: none;
+    background-color: rgb(179, 179, 179) 8, 168, 168;
+  }
+  /* Cancelar Button */
+  .buttonback {
+    width: 60%;
+    height: 80%;
+    margin-bottom: 10%;
+    align-self: center;
+    text-align: center;
+    color: black;
+    font-size: 80%;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px rgb(73, 70, 70);
+    background-color: white;
+    border-color: transparent !important;
+    margin-top: 5% !important;
+  }
+
+  #login .inicio .buttonback:hover {
+    color: #fff;
+    box-shadow: none;
+    background-color: yellow;
+  }
+
+  .help {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link {
+    width: 100%;
+    flex-direction: column;
+    background-color: transparent;
+    width: 100% !important;
+    align-self: center;
+  }
+
+  #login .link #ayudaa {
+    color: #5c5c5c;
+    font-size: 80%;
+    align-self: center;
+    background-color: transparent;
+  }
+
+  #footerlogin {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    margin-top: 10%;
+  }
+}

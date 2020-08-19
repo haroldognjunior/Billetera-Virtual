@@ -1,0 +1,128 @@
+/* Container General  */
+#generalcont {
+ width:100%;
+ background-color: rgb(255, 255, 255);
+ margin-top: 0%;
+}
+/* Subcontainer General */
+.general {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.props {
+    display: flex;
+}
+.props h3{
+    color: rgb(2, 2, 2);
+    text-align: center;
+    width: 100%;
+}
+
+.income {
+    width: 100%;
+    color: rgb(150, 150, 150)
+}
+.income h5 {
+    text-align: center;
+    width: 100%;
+}
+.expenses {
+    text-align: center;
+    width: 100%;
+    color: rgb(150, 150, 150)
+}
+/* Container de Historial de movimientos por fecha  */
+.record {
+    width:100%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+
+}
+/* Links de historial por separado */
+.record #recordbtn {
+    text-align: center;
+    color: #131313!important;
+    width: 50%;
+    font-weight: 600;
+    border: transparent;
+    background-color: transparent;
+}
+
+.record #recordbtn:hover{
+    text-decoration: none;
+    color: rgb(251, 255, 0)!important;
+    background-color: gray;
+}
+
+.containervalor {
+    color: black;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #generalcont {
+ width:70%;
+ background-color: rgb(255, 255, 255);
+ margin-top: 0%;
+ align-self: center;
+ justify-content: center;
+ margin-left:15%;
+}
+/* Subcontainer General */
+.general {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.props {
+    display: flex;
+}
+.props h3{
+    color: rgb(2, 2, 2);
+    text-align: center;
+    width: 100%;
+}
+
+.income {
+    width: 100%;
+    color: rgb(150, 150, 150)
+}
+.income h5 {
+    text-align: center;
+    width: 100%;
+}
+.expenses {
+    text-align: center;
+    width: 100%;
+    color: rgb(150, 150, 150)
+}
+/* Container de Historial de movimientos por fecha  */
+.record {
+    width:100%;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+/* Links de historial por separado */
+.record .historylink{
+    text-align: center;
+    color: #131313;
+    width: 100%;
+}
+
+.record .historylink:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+.containervalor {
+    color: black;
+}
+}

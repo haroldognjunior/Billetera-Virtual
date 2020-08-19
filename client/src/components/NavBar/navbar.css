@@ -1,0 +1,221 @@
+/* Container Container */
+#containernavbar {
+  width: 100%;
+}
+/* NavBar */
+.contenavbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+/* Contenedor Top */
+.conttop {
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* Boton Transacciones */
+.buttonSB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-color: transparent !important;
+  background-color: black !important;
+  box-shadow: 2px 2px 3px 3px gray;
+}
+
+.buttonSB:hover {
+  background-color: rgb(167, 167, 167) !important;
+  box-shadow: none !important;
+}
+/* Boton Mis Datos*/
+.buttonSW {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-color: transparent !important;
+  background-color: white !important;
+  color: black;
+  font-weight: 600;
+  box-shadow: 2px 2px 3px 3px gray;
+}
+.buttonSW:hover {
+  background-color: rgb(167, 167, 167) !important;
+  box-shadow: none !important;
+}
+
+/* Contenedor Bot */
+.contbot {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+/* Boton Recargar Dinero */
+.buttonRB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+  border-color: transparent !important;
+  background-color: black !important;
+  box-shadow: 2px 2px 3px 3px gray;
+}
+.buttonRB:hover {
+  background-color: rgb(80, 80, 80) !important;
+  box-shadow: none !important;
+}
+/* Boton Mandar Dinero */
+.buttonWR {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  border-color: transparent !important;
+  background-color: white !important;
+  color: black;
+  font-weight: 600;
+  box-shadow: 2px 2px 3px 3px gray;
+}
+.buttonWR:hover {
+  background-color: rgb(80, 80, 80) !important;
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 600px) {
+  /* Container Container */
+  #containernavbar {
+    width: 100%;
+  }
+  /* NavBar */
+  .contenavbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+  }
+  /* Contenedor Top */
+  .conttop {
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* Boton CUADRADO NEGRO */
+  .buttonSB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    font-size: 80%;
+    border-color: transparent !important;
+    background-color: black !important;
+    box-shadow: 2px 2px 3px 3px gray;
+  }
+
+  .buttonSB:hover {
+    background-color: rgb(167, 167, 167) !important;
+    box-shadow: none !important;
+  }
+  /* Boton CUADRADO BLANCO*/
+  .buttonSW {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    font-size: 80%;
+    border-color: transparent !important;
+    background-color: white !important;
+    color: black;
+    font-weight: 600;
+    box-shadow: 2px 2px 3px 3px gray;
+  }
+  .buttonSW:hover {
+    background-color: rgb(167, 167, 167) !important;
+    box-shadow: none !important;
+  }
+  /* Boton Mis Productos */
+  .buttonSB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    font-size: 80%;
+    border-color: transparent !important;
+    background-color: black !important;
+    box-shadow: 2px 2px 3px 3px gray;
+  }
+  .buttonSB:hover {
+    background-color: rgb(167, 167, 167) !important;
+    box-shadow: none !important;
+  }
+
+  /* Contenedor Bot */
+  .contbot {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  /* Boton Recargar Dinero */
+  .buttonRB {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    border-color: transparent !important;
+    background-color: black !important;
+    box-shadow: 2px 2px 3px 3px gray;
+  }
+  .buttonRB:hover {
+    background-color: rgb(80, 80, 80) !important;
+    box-shadow: none !important;
+  }
+  /* Boton Mandar Dinero */
+  .buttonWR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    border-color: transparent !important;
+    background-color: white !important;
+    color: black;
+    font-weight: 600;
+    box-shadow: 2px 2px 3px 3px gray;
+  }
+  .buttonWR:hover {
+    background-color: rgb(80, 80, 80) !important;
+    box-shadow: none !important;
+  }
+}

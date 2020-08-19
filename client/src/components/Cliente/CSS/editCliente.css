@@ -1,0 +1,89 @@
+#buttons {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  border: none;
+  font-weight: 500;
+  border-radius: 0%;
+  font-size: 18px;
+  background-color: rgba(200, 196, 196, 0.664);
+  box-shadow: 3px 3px 5px rgba(68, 68, 68, 0.575);
+}
+
+#altacliente a {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #666666;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+#altacliente .altaButtons input {
+  height: 60px;
+  background-color: yellow;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0%;
+  padding: 10px 40px !important;
+  box-shadow: 5px 5px 5px rgb(167, 167, 167);
+  margin-bottom: 5%;
+}
+
+#altacliente .altaButtons input:hover {
+  color: #fff;
+  box-shadow: none;
+}
+#ayuda {
+  align-self: center;
+  margin-bottom: 10%;
+  background-color: transparent;
+}
+#footeralta {
+  width: 100%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*  Container Alta Cliente   */
+  #altaclientecont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(255, 255, 255));
+    flex-direction: column;
+  }
+  /*  / Header Alta cliente  / */
+  #headereditcliente {
+    width: 100%;
+  }
+  /* / Subcontainer Alta CLiente  / */
+  #altacliente {
+    align-self: center;
+    width: 100%;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(255, 255, 255));
+  }
+  /*  / Imagen header */
+  */ img {
+    width: 100%;
+  }
+  #altacliente div p {
+    font-weight: bold;
+    padding-left: 10%;
+    margin-bottom: -5%;
+  }
+  #altacliente h2 {
+    font-size: 1.5rem;
+    position: relative;
+    top: -5px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  #ayuda {
+    align-self: center;
+    margin-bottom: 10%;
+    background-color: transparent;
+  }
+}
